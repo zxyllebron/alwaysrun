@@ -1,0 +1,21 @@
+{
+  "name": "alwaysrun",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/zxyllebron/alwaysrun.git" },
+  "homepage": "https://github.com/zxyllebron/alwaysrun#readme",
+  "bugs": { "url": "https://github.com/zxyllebron/alwaysrun/issues" },
+  "type": "module",
+  "description": "Independent local night-shift supervisor powered by the installed Codex app-server",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "start": "node src/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "audit:public": "node scripts/public-audit.mjs",
+    "doctor": "node scripts/doctor.mjs"
+  }
+}

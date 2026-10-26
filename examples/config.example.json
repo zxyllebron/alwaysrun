@@ -1,0 +1,25 @@
+{
+  "name": "User",
+  "port": 8790,
+  "model": "gpt-6.1-sol",
+  "effort": "xhigh",
+  "codexBin": "codex",
+  "workstationDb": "",
+  "syncSeconds": 60,
+  "night": {
+    "enabled": false,
+    "start": "23:00",
+    "hours": 8,
+    "maxTurns": 24,
+    "maxOutputTokens": 100000,
+    "taskMinutes": 20,
+    "maxIdleCycles": 2
+  },
+  "feishu": {
+    "baseUrl": "https://open.feishu.cn",
+    "appIdEnv": "FEISHU_APP_ID",
+    "appSecretEnv": "FEISHU_APP_SECRET",
+    "bases": []
+  },
+  "longTermGoal": "Advance active projects from their confirmed goals; prepare useful prerequisites before switching projects."
+}
